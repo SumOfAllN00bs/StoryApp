@@ -4,4 +4,4 @@ story: story.cpp
 	g++ -o story.exe story.o resource.o -mwindows
 
 clean:
-	rm story.o resource.o
+	rm story.o resource.o story.exe
